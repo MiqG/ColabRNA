@@ -1,3 +1,61 @@
+# TODO
+- [ ] Pangolin
+- [ ] SpliceAI
+- [ ] splam
+- [ ] absplice
+
+# Usage
+```python
+from splicing_models import Pangolin
+
+# sequence I want to score
+sequence = "AAAAAAAAAA"
+sequence = "AAAAAAAAAC"
+
+# score sequence
+model = Pangolin()
+model.score_sequence(sequence)
+# this gives an error because the sequence is not long enough
+
+# add context
+import pyfastx
+genome_sequence = pyfastx.Fasta(genome_reference_file)
+
+model = Pangolin()
+model.score_sequence(
+    sequence, 
+    chromosome="chr9", 
+    position_start=123456789, 
+    position_end=123456789, # this is an insertion 
+    strand="-", 
+    genome_sequence=genome_sequence
+)
+
+# add 5000 upstream and downstream context
+
+
+# score the sequence
+
+# compare the scores of two sequences
+import pyfastx
+genome_sequence = pyfastx.Fasta(genome_reference_file)
+chromosome="chr9"
+position_start=123456789
+position_end=123456789 # this is an insertion 
+strand="-"
+genome_sequence=genome_sequence
+
+sequence_ref = "A"
+sequence_alt = "AACGT"
+position_alt = 1
+
+model = Pangolin()
+scores_ref = model.score_sequence(sequence_ref, strand, chromosome, position_start, position_end, genome_sequence)
+scores_alt = model.score_sequence(sequence_alt, strand, chromosome, position_start, position_end, genome_sequence)
+loss, gain = model.compare_scores(scores_alt, scores_ref, position_alt)
+```
+
+
 # Published models predicting alternative splicing
 
 - Sequence inputs
