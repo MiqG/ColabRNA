@@ -84,7 +84,18 @@ loss, gain = model.compare_scores(scores_alt, scores_ref, position_alt)
   - [AbSplice](https://github.com/gagneurlab/absplice)
     - aberrant splicing prediction across human tissues
     - https://www.nature.com/articles/s41588-023-01373-3
-   
+- [SpliceBERT](https://github.com/biomed-AI/SpliceBERT)
+  - Self-supervised learning on millions of pre-mRNA sequences improves sequence-based RNA splicing prediction
+  - https://doi.org/10.1101/2023.01.31.526427
+- [borzoi](https://github.com/calico/borzoi)
+  - Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation
+  - https://doi.org/10.1101/2023.08.30.555582
+- [SpliceVault](https://github.com/kidsneuro-lab/SpliceVault)
+  - SpliceVault predicts the precise nature of variant-associated mis-splicing
+  - https://www.nature.com/articles/s41588-022-01293-8
+- [BigRNA]()
+  - An RNA foundation model enables discovery of disease mechanisms and candidate therapeutics
+  - https://doi.org/10.1101/2023.09.20.558508
 
 - Methylation inputs
   - [methylAltSplicing](https://github.com/BauerLab/methylAltSplicing)
