@@ -96,6 +96,9 @@ loss, gain = model.compare_scores(scores_alt, scores_ref, position_alt)
 - [BigRNA]()
   - An RNA foundation model enables discovery of disease mechanisms and candidate therapeutics
   - https://doi.org/10.1101/2023.09.20.558508
+- [Interpretable Splicing Model](https://github.com/regev-lab/interpretable-splicing-model)
+  - Deciphering RNA splicing logic with interpretable machine learning
+  - https://doi.org/10.1073/pnas.2221165120
 
 - Methylation inputs
   - [methylAltSplicing](https://github.com/BauerLab/methylAltSplicing)
