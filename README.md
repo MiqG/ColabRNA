@@ -99,6 +99,8 @@ loss, gain = model.compare_scores(scores_alt, scores_ref, position_alt)
 - [Interpretable Splicing Model](https://github.com/regev-lab/interpretable-splicing-model)
   - Deciphering RNA splicing logic with interpretable machine learning
   - https://doi.org/10.1073/pnas.2221165120
+- [Multi Task Learning Splicing and Splice Start]()
+  - https://doi.org/10.1101/2023.10.16.562631
 
 - Methylation inputs
   - [methylAltSplicing](https://github.com/BauerLab/methylAltSplicing)
