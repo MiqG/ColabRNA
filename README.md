@@ -105,6 +105,10 @@ loss, gain = model.compare_scores(scores_alt, scores_ref, position_alt)
 - [SpliceTransformer](https://github.com/ShenLab-Genomics/SpliceTransformer)
 
 - [LoRNAsh](https://github.com/goodarzilab/lorna-sh/issues)
+  
+- segmentNT: https://huggingface.co/InstaDeepAI/segment_nt
+
+- RNA Lm: https://academic.oup.com/nar/article/53/3/gkaf044/7997216?login=false
 
 - Methylation inputs
   - [methylAltSplicing](https://github.com/BauerLab/methylAltSplicing)
