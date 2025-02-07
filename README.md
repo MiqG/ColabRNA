@@ -102,6 +102,10 @@ loss, gain = model.compare_scores(scores_alt, scores_ref, position_alt)
 - [Multi Task Learning Splicing and Splice Start]()
   - https://doi.org/10.1101/2023.10.16.562631
 
+- [SpliceTransformer](https://github.com/ShenLab-Genomics/SpliceTransformer)
+
+- [LoRNAsh](https://github.com/goodarzilab/lorna-sh/issues)
+
 - Methylation inputs
   - [methylAltSplicing](https://github.com/BauerLab/methylAltSplicing)
 
