@@ -12,8 +12,9 @@ Inspired in [ColabFold](https://github.com/sokrypton/ColabFold), a repository ai
 ### Transcriptomics
 - [Borzoi](): TODO
 
-### Sequence2Sequence
+### Nucleotide probability
 - [RiNALMo](): TODO
+- [RNABERT](): TODO
 
 ## References
 - **SpliceAI**
@@ -37,3 +38,6 @@ Inspired in [ColabFold](https://github.com/sokrypton/ColabFold), a repository ai
 - **RiNALMo**:
     - repository: https://github.com/lbcb-sci/RiNALMo
     - paper: https://arxiv.org/abs/2403.00043
+- **RNABERT**:
+    - repository: https://github.com/mana438/RNABERT
+    - paper: https://doi.org/10.1093/nargab/lqac012
