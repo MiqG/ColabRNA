@@ -2,6 +2,8 @@
 
 Inspired in [ColabFold](https://github.com/sokrypton/ColabFold), a repository aiming to make RNA-based models accessible to all.
 
+![nascent transcripts](https://www.researchgate.net/profile/Victoria-Foe/publication/358757540/figure/fig2/AS:11431281096410460@1668144348391/Nascent-transcripts-undergo-splicing-during-transcription-A-four-micron-long.ppm)
+
 ## Model notebooks
 ### Splicing
 - [SpliceAI](https://colab.research.google.com/github/MiqG/ColabSplice/blob/main/notebooks/SpliceAI.ipynb)
