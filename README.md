@@ -1,6 +1,6 @@
 # ColabRNA
 
-Inspired in [ColabFold](https://github.com/sokrypton/ColabFold), a repository aiming to make RNA-based models accessible to all.
+Inspired by [ColabFold](https://github.com/sokrypton/ColabFold), a repository aiming to make RNA-based models accessible to all.
 
 ![](profiles.png)
 
