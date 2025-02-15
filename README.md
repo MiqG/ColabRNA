@@ -4,12 +4,12 @@ Inspired in [ColabFold](https://github.com/sokrypton/ColabFold), a repository ai
 
 ## Model notebooks
 ### Splicing
-- [SpliceAI]()
-- [Pangolin]()
-- [SpliceTransformer]()
+- [SpliceAI](https://colab.research.google.com/github/MiqG/ColabSplice/blob/main/notebooks/SpliceAI.ipynb)
+- [Pangolin](https://colab.research.google.com/github/MiqG/ColabSplice/blob/main/notebooks/Pangolin.ipynb)
+- [SpliceTransformer](https://colab.research.google.com/github/MiqG/ColabSplice/blob/main/notebooks/SpliceTransformer.ipynb)
 
 ### Transcriptomics
-- [Borzoi](): TODO
+- [Borzoi](https://colab.research.google.com/github/MiqG/ColabSplice/blob/main/notebooks/Borzoi.ipynb)
 
 ### Nucleotide probability
 - [RiNALMo](): TODO
